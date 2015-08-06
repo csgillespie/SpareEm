@@ -2,7 +2,9 @@ Version 0.3.0
 ----------------------------
  * Added NAMESPACE & NEWS files
  * Updated DESCRIPTION
- * Removed dots from functions names to avoid S3 confusion.
+ * Removed dots from functions names to avoid S3 confusion. Unfortunately, this breaks 
+   all previous code
+ * Deleted spurious help files
 
 Version 0.2-2
 ----------------------------
