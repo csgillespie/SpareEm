@@ -1,0 +1,9 @@
+Version 0.3.0 
+----------------------------
+ * Added NAMESPACE & NEWS files
+ * Updated DESCRIPTION
+ * Removed dots from functions names to avoid S3 confusion.
+
+Version 0.2-2
+----------------------------
+ * Original version from http://www.stat.berkeley.edu/~cgk/rcode/

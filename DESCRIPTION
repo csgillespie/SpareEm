@@ -1,0 +1,13 @@
+Package: SparseEm
+Type: Package
+Title: Statistical Emulation Using Sparse Correlation Structure
+Version: 0.3.0
+Date: 2015-08-05
+Author: c(person(given ="Cari", family="Kaufman", email="cgk@stat.berkeley.edu", role=("aut", "cre")),
+  person(given="Colin", family="Gillespie", email="csgillespie@gmail.com", role = c("ctb"))
+Maintainer: Cari Kaufman <cgk@stat.berkeley.edu>
+Depends: spam (>= 0.15-2)
+Description: Fitting of GP models discussed in Kaufman et al.
+License: GPL-3
+LazyLoad: yes
+ByteCompile: true
