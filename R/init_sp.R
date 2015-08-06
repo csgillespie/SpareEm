@@ -1,7 +1,6 @@
 #' @useDynLib SparseEm
 #' @export
-init_sp <-
-function (x, cutoff, sparsity.estimate = est_sparse(cutoff, x)) 
+init_sp = function (x, cutoff, sparsity.estimate = est_sparse(cutoff, x)) 
 {
     n = nrow(x)
     p = ncol(x)

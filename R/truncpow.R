@@ -1,6 +1,5 @@
 #' @export
-truncpow <-
-function (d, cutoff, alpha = 1) 
+truncpow = function (d, cutoff, alpha = 1) 
 {
     stopifnot(alpha %in% c(1, 3/2, 5/3))
     nu <- switch(match(alpha, c(1, 3/2, 5/3)), 1, 2, 3)

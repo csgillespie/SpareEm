@@ -1,6 +1,5 @@
 #' @export
-inll <-
-function (phi, y, d, pow, X) 
+inll = function (phi, y, d, pow, X) 
 {
     n <- length(y)
     corr.matrix <- prod_exp(d, phi = phi, pow = rep(pow, length(phi)))

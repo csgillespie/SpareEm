@@ -46,7 +46,7 @@ function (y, x, mc = find_tau(den = 0.1, dim = ncol(x)) * ncol(x),
             message("Estimated running time: ", round(est.time, 2), " hours.")
         }
         if (b%%rate.update == 0) {
-            pl <- adapt.var(b, samples = tau[(b - rate.update + 1):b, ], pl, rate.update)
+            pl <- adapt_var(b, samples = tau[(b - rate.update + 1):b, ], pl, rate.update)
         }
     }
     return(tau)

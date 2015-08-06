@@ -45,7 +45,7 @@ function (y, x, degree = 0, maxint = 0, pow = 2, B = 2000, phi.max = 100,
                 2), "hours"))
         }
         if (b%%rate.update == 0) {
-            pl <- adapt.var(b, samples = phi[(b - rate.update + 
+            pl <- adapt_var(b, samples = phi[(b - rate.update + 
                 1):b, ], pl, rate.update)
         }
     }

@@ -1,3 +1,4 @@
+#' Update Sp
 #' @export
 update_sp <- function (init, cutoff) 
 {
