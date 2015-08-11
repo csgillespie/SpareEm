@@ -6,5 +6,5 @@ R package from
 
 To install the package from this repo, use
 ```
-devtools::install_github("csgillespie/SparseEm")
+devtools::install_github("csgillespie/SparseEm", sub="pkg")
 ```

@@ -7,6 +7,7 @@ Author: c(person(given ="Cari", family="Kaufman", email="cgk@stat.berkeley.edu",
   person(given="Colin", family="Gillespie", email="csgillespie@gmail.com", role = c("ctb"))
 Maintainer: Cari Kaufman <cgk@stat.berkeley.edu>
 Depends: spam (>= 0.15-2)
+Suggests: lhs
 Description: Fitting of GP models discussed in Kaufman et al.
 License: GPL-3
 LazyLoad: yes

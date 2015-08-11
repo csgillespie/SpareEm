@@ -9,6 +9,6 @@
 .Rproj.user/
 
 # produced vignettes
-vignettes/*.html
-vignettes/*.pdf
+pkg/vignettes/*.html
+pkg/vignettes/*.pdf
 .Rproj.user
