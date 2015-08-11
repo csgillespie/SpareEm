@@ -1,12 +1,14 @@
 # The SparseEm package
 
-## Background
+## Overview
 
 This is the associated R package from 
 
 > Kaufman, C., Bingham, D., Habib, S., Heitmann, K., and Frieman, J. (2011) “Efficient Emulators of Computer Experiments Using Compactly Supported Correlation Functions, With An Application to Cosmology.” Annals of Applied Statistics, 5: 2470–2492.
 
 The code was originally developed by Dr Cari Kaufman. This is a copy of package, updated for use with R version 3 onwards.
+
+The original example file, `SparseEmExample.R` is a good place to get started.
 
 ## Installation
 
